@@ -63,23 +63,23 @@ const UsersForm = ({getUsers, userSelect, deselectUser}) => {
             <div className="user-details">
             <div className="input-box">
                 <label className='details' htmlFor='name'>Name</label>
-                <input type="text" id='name' value={name} onChange={e => setName(e.target.value)} required placeholder='Examplo'/>
+                <input type="text" id='name' value={name} onChange={e => setName(e.target.value)}  placeholder='Examplo'/>
             </div>
             <div className="input-box">
                 <label htmlFor='lastName'>LastName</label>
-                <input type="text" id='lastName'  value={lastName} onChange={e => setLastName(e.target.value)} required placeholder='Examplo'/>
+                <input type="text" id='lastName'  value={lastName} onChange={e => setLastName(e.target.value)}  placeholder='Examplo'/>
             </div>
             <div className="input-box">
                 <label htmlFor='birthday'>Birthday</label>
-                <input type="date" id='birthday'  value={birthday} onChange={e => setBirthday(e.target.value)} required />
+                <input type="date" id='birthday'  value={birthday} onChange={e => setBirthday(e.target.value)}  />
             </div>
             <div className="input-box">
                 <label htmlFor='email'>Email</label>
-                <input type="email" id='email'  value={email} onChange={e => setEmail(e.target.value)} required placeholder='Examplo@examplo.com'/>
+                <input type="email" id='email'  value={email} onChange={e => setEmail(e.target.value)}  placeholder='Examplo@examplo.com'/>
             </div>
             <div className="input-box">
                 <label htmlFor='password'>Password</label>
-                <input type="password" id='password'  value={password} onChange={e => setPassword(e.target.value)} required placeholder='**********'/>
+                <input type="password" id='password'  value={password} onChange={e => setPassword(e.target.value)}  placeholder='**********'/>
             </div>
             <div className="button">
                 <button>Register</button>
