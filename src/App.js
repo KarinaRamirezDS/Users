@@ -39,7 +39,7 @@ function App() {
       <UsersList 
       users={users}
       selectUser={selectUser}
-      deselectUser = {deselectUser}
+     
       getUsers={getUsers}
       />
       </div>
@@ -48,6 +48,7 @@ function App() {
       <UsersForm 
       getUsers={getUsers}
       userSelect={userSelect}
+      deselectUser = {deselectUser}
       />
 
       </div>
