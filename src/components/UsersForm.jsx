@@ -11,7 +11,7 @@ const UsersForm = ({getUsers, userSelect, deselectUser}) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-    //useEffect detectar cada que cambia niestro estado
+    //useEffect detectar cada que cambia nuestro estado
     useEffect(() => {
         if(userSelect !== null){
             //SE SETEA EL VALOR 
@@ -79,7 +79,7 @@ const UsersForm = ({getUsers, userSelect, deselectUser}) => {
             </div>
             <div className="input-box">
                 <label htmlFor='password'>Password</label>
-                <input type="password" id='password'  value={password} onChange={e => setPassword(e.target.value)}  placeholder='**********'/>
+                <input type="text" id='password'  value={password} onChange={e => setPassword(e.target.value)}  placeholder='**********'/>
             </div>
             <div className="button">
                 <button>Register</button>

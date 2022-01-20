@@ -36,19 +36,19 @@ function App() {
       <h1 className='titulo'>Users</h1> 
       <div  className="separador">
       <div className="users">
+      
       <UsersList 
-      users={users}
-      selectUser={selectUser}
-     
-      getUsers={getUsers}
+         users={users}
+         selectUser={selectUser}
+         getUsers={getUsers}
       />
       </div>
 
       <div className="user">
       <UsersForm 
-      getUsers={getUsers}
-      userSelect={userSelect}
-      deselectUser = {deselectUser}
+          getUsers={getUsers}
+          userSelect={userSelect}
+          deselectUser = {deselectUser}
       />
 
       </div>
